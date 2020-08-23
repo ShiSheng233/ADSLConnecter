@@ -17,7 +17,7 @@ namespace ADSLConnecter
         private static StringBuilder sb = new StringBuilder();
 
         public static int delay = 1;
-        public static void ChangeIp(String ADSL_Name = "宽带连接", String ADSL_UserName = "", String ADSL_PassWord = "")
+        public static void ChangeIp(String ADSL_Name = "", String ADSL_UserName = "", String ADSL_PassWord = "")
         {
             sb.Clear();
             sb.AppendLine("@echo off");
